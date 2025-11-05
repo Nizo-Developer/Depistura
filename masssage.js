@@ -1,4 +1,5 @@
 export const messages = [
+  // 'lorem ijasjdhsj sjdhsjdhsj dhsjdjsh js h jshjshdjshdjshdj s hdjsh djshjdhsjdsh jd shjdh sjd hsjdhjsdhjd hjshdjshdjs hdjshdjdjs hdjs jd hsjdhsjhsjdhjd jshd js hjs hdjs jshjshj djshdjs',
   `Hal ini dibuat karena penulis (M Hakim Ilahi) kadang lupa tentang detail kecil yang menarik
 
 Setiap hari akan ada satu pesan atau cerita dari hal-hal yang pernah kita bincangkan, sampai hal yang belum ku sampaikan

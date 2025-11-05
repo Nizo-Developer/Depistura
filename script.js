@@ -39,6 +39,7 @@ function intro() {
 }
 
 function setMessage() {
+  const intro = document.querySelector(".intro");
   const message = document.querySelector(".message");
   const start = new Date("2025-11-06");
   const current = new Date();
@@ -52,8 +53,9 @@ function setMessage() {
   const isOver = Math.ceil(over / (1000 * 60 * 60 * 24));
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
-  const formatDay = diffDays <= 0 ? `D${diffDays - 1}` : `Day ${diffDays}`;
+  const formatDay = diffDays <= 0 ? `H${diffDays - 1}` : `Day ${diffDays}`;
   const messageId = diffDays < 0 ? 0 : diffDays > allDays ? messages.length - 1 : diffDays
 
+  intro.innerText = formatDay;
   message.innerHTML = messages[messageId]
 }
