@@ -1,12 +1,16 @@
 @font-face {
   font-family: Hand;
-  src: url(./JustAnotherHand-Regular.ttf);
+  src: url(./assets/font/JustAnotherHand-Regular.ttf);
 }
 
 * {
   font-family: Hand;
   letter-spacing: 2px;
   font-size: 5vw;
+}
+*::selection {
+  background-color: #9d92e374;
+  color: #270052;
 }
 
 body {
@@ -15,6 +19,16 @@ body {
   height: 100vh;
   overflow-y: hidden;
   box-sizing: border-box;
+}
+
+.cursor {
+  aspect-ratio: 1;
+  position: fixed;
+}
+.cursor * {
+  position: absolute;
+  height: 40px;
+  transform: translate(-45%, -18%);
 }
 
 .intro {
@@ -32,6 +46,7 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 3s ease;
+  pointer-events: none;
 }
 
 .container {

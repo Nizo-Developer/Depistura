@@ -29,6 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setTimeout(() => {
     intro();
+
+    // window.addEventListener("mousemove", cursor)
   }, 500);
 });
 
@@ -41,9 +43,9 @@ function intro() {
 function setMessage() {
   const intro = document.querySelector(".intro");
   const message = document.querySelector(".message");
-  const start = new Date("2025-11-06");
+  const start = new Date("2025-11-10");
   const current = new Date();
-  const end = new Date("2025-11-10");
+  const end = new Date("2026-01-11");
 
   const allTime = end - start
   const over = end - current;
@@ -58,4 +60,14 @@ function setMessage() {
 
   intro.innerText = formatDay;
   message.innerHTML = messages[messageId]
+}
+
+function cursor(e) {
+  const curower = document.querySelector(".cursor");
+
+  const x = e.clientX;
+  const y = e.clientY;
+
+  curower.style.top = y + "px";
+  curower.style.left = x + "px";
 }
