@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Hand;
+  src: url(./JustAnotherHand-Regular.ttf);
+}
+
+* {
+  font-family: Hand;
+  letter-spacing: 2px;
+  font-size: 3vw;
+}
+
+body {
+  top: 0;
+  margin: 0;
+  height: 100vh;
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
+
+.intro {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #06002b;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.message {
+  text-align: justify;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    margin-inline: 150px;
+  }
+}
