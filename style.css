@@ -6,11 +6,25 @@
 * {
   font-family: Hand;
   letter-spacing: 2px;
-  font-size: 5vw;
+  font-size: 7vw;
 }
+
 *::selection {
   background-color: #9d92e374;
   color: #270052;
+}
+
+mini {
+  font-size: calc(7vw - 10px);
+}
+
+stamp {
+  background-color: #9d92e374;
+  color: #270052;
+}
+stamp::selection {
+  background-color: #40027a;
+  color: #cc9cff;
 }
 
 body {
@@ -25,6 +39,7 @@ body {
   aspect-ratio: 1;
   position: fixed;
 }
+
 .cursor * {
   position: absolute;
   height: 40px;
@@ -47,10 +62,10 @@ body {
   justify-content: center;
   transition: all 3s ease;
   pointer-events: none;
-}
+} 
 
 .container {
-  margin-inline: 60px;
+  margin-inline: 40px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -65,6 +80,10 @@ body {
 @media screen and (min-width: 600px) {
   * {
     font-size: 3vw;
+  }
+
+  mini {
+    font-size: calc(3vw - 10px);
   }
 
   .container {

@@ -1,10 +1,10 @@
 export const messages = [
   // 'lorem ijasjdhsj sjdhsjdhsj dhsjdjsh js h jshjshdjshdjshdj s hdjsh djshjdhsjdsh jd shjdh sjd hsjdhjsdhjd hjshdjshdjs hdjshdjdjs hdjs jd hsjdhsjhsjdhjd jshd js hjs hdjs jshjshj djshdjs',
-  `Hal ini dibuat karena penulis (M Hakim Ilahi) kadang lupa tentang detail kecil yang menarik.
+  `Hal ini dibuat karena penulis kadang lupa tentang detail kecil yang menarik.<br>
 
-Setiap hari akan ada satu pesan atau cerita dari hal-hal yang pernah kita bincangkan, sampai hal yang belum ku sampaikan.<br>
+Setiap hari akan ada <stamp>satu pesan atau cerita</stamp> dari hal-hal yang pernah kita bincangkan, sampai hal yang belum ku sampaikan.<br><br>
 
-Pesan ini akan di mulai dari tanggal 06 November 2025 hingga tanggal 11 Januari 2026, dan tidak bisa di lihat kembali pesan atau cerita di hari sebelumnya.
+<mini>Pesan ini akan di mulai dari tanggal 10 November 2025 hingga tanggal 11 Januari 2026, dan tidak bisa di lihat kembali pesan atau cerita di hari sebelumnya.</mini>
 
 `,
   `Kita berawal dari bisik-bisik kayak ngomongin rahasia dunia yang belum terbongkar, "lu alumni dunem??" "iyaa, lu alumni dupat ya?" "iya" wkwk ga tau bener atau ngga tapi kayaknya percakapannya gitu, ekmmm sebelum mpls berlangsung penulis sempat mencari-cari informasi teman sekelasnya a.k.a stalking *dari sekolah mana aja sih ini* salah satunya namamu, waktu ku cek ternyata dari sekolah tetangga wkwk
