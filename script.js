@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   bodyHeight = body.getBoundingClientRect().height;
   messageHeight = message.getBoundingClientRect().height;
 
-  if (messageHeight > bodyHeight - 100) {
+  if (messageHeight > bodyHeight - 80) {
     container.style.paddingBlock = "100px";
   }
 
@@ -43,7 +43,7 @@ function intro() {
 function setMessage() {
   const intro = document.querySelector(".intro");
   const message = document.querySelector(".message");
-  const start = new Date("2025-11-10");
+  const start = new Date("2025-11-07");
   const current = new Date();
   const end = new Date("2026-01-11");
 
@@ -59,7 +59,7 @@ function setMessage() {
   const messageId = diffDays < 0 ? 0 : diffDays > allDays ? messages.length - 1 : diffDays
 
   intro.innerText = formatDay;
-  message.innerHTML = messages[messageId]
+  message.innerHTML = messages[messageId] || 'Penulis belum menulis kan ceritanya hari ini :/'
 }
 
 function cursor(e) {

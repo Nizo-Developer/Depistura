@@ -5,8 +5,9 @@
 
 * {
   font-family: Hand;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
   font-size: 7vw;
+  color: #06002b;
 }
 
 *::selection {
@@ -18,13 +19,17 @@ mini {
   font-size: calc(7vw - 10px);
 }
 
-stamp {
+ht {
   background-color: #9d92e374;
   color: #270052;
 }
-stamp::selection {
+ht::selection {
   background-color: #40027a;
   color: #cc9cff;
+}
+i {
+  color: #514c74;
+  font-size: calc(7vw - 20px);
 }
 
 body {
@@ -84,6 +89,10 @@ body {
 
   mini {
     font-size: calc(3vw - 10px);
+  }
+
+  i {
+    font-size: calc(3vw - 4px);
   }
 
   .container {
