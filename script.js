@@ -43,7 +43,7 @@ function intro() {
 function setMessage() {
   const intro = document.querySelector(".intro");
   const message = document.querySelector(".message");
-  const start = new Date("2025-11-07");
+  const start = new Date("2025-11-10");
   const current = new Date();
   const end = new Date("2026-01-11");
 
