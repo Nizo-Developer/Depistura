@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let bodyHeight = body.getBoundingClientRect().height;
   let messageHeight = message.getBoundingClientRect().height;
 
-  if (messageHeight > bodyHeight - 100) {
-    message.style.fontSize = "3vw";
-  }
+  // if (messageHeight > bodyHeight - 100) {
+    // message.style.fontSize = "3vw";
+  // }
 
   bodyHeight = body.getBoundingClientRect().height;
   messageHeight = message.getBoundingClientRect().height;

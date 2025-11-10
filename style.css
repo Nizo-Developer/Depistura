@@ -5,7 +5,7 @@
 
 * {
   font-family: Hand;
-  letter-spacing: 2.5px;
+  letter-spacing: 2px;
   font-size: 7vw;
   color: #06002b;
 }
@@ -16,7 +16,7 @@
 }
 
 mini {
-  font-size: calc(7vw - 10px);
+  font-size: calc(7vw - 4px);
 }
 
 ht {
@@ -29,7 +29,7 @@ ht::selection {
 }
 i {
   color: #514c74;
-  font-size: calc(7vw - 20px);
+  font-size: calc(7vw - 6px);
 }
 
 body {
@@ -82,9 +82,10 @@ body {
   text-align: justify;
 }
 
-@media screen and (min-width: 600px) {
+@media (orientation: landscape) {
   * {
     font-size: 3vw;
+    letter-spacing: 2.5px;
   }
 
   mini {
