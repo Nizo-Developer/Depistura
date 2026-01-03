@@ -8,6 +8,7 @@
   letter-spacing: 2px;
   font-size: 7vw;
   color: #06002b;
+  word-spacing: 3px;
 }
 
 *::selection {
@@ -23,10 +24,63 @@ ht {
   background-color: #9d92e374;
   color: #270052;
 }
+
 ht::selection {
   background-color: #40027a;
   color: #cc9cff;
 }
+
+secret {
+  opacity: 0.4;
+  color: #323142;
+  background-color: #323142;
+  transition: all 0.3s ease;
+  padding-inline: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transform: scale(0.8);
+  display: inline-block;
+}
+
+secret:hover,
+secret:active {
+  opacity: 1;
+  color: unset;
+  background-color: unset;
+  transform: scale(1);
+}
+
+supersecret {
+  color: #1b184e;
+  background-color: #1b184e;
+  transition: all 0.3s ease;
+  padding-inline: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transform: scale(0.8);
+  user-select: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+supersecret::selection {
+  color: #1b184e;
+}
+supersecret::after {
+  font-size: 24px;
+  content: 'Ini "super secret" anda tidak dapat melihat isinya';
+  background-color: #f0f0f0;
+  padding: 10px;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+supersecret:hover::after, supersecret:active::after {
+  opacity: 1;
+}
+
 i {
   color: #514c74;
   font-size: calc(7vw - 6px);
@@ -67,7 +121,7 @@ body {
   justify-content: center;
   transition: all 3s ease;
   pointer-events: none;
-} 
+}
 
 .container {
   margin-inline: 40px;
@@ -86,6 +140,7 @@ body {
   * {
     font-size: 3vw;
     letter-spacing: 2.5px;
+    word-spacing: 4px;
   }
 
   mini {

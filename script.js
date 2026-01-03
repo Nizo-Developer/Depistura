@@ -1,4 +1,4 @@
-import { messages } from "./masssage.js";
+import { messages } from "./messsage.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   setMessage();
