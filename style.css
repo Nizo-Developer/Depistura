@@ -17,10 +17,7 @@
 }
 
 mini {
-  font-size: calc(7vw - 6px) !important;
-}
-mini > *{
-  font-size: calc(7vw - 6px) !important;
+  font-size: calc(7vw - 6px);
 }
 
 ht {
@@ -157,14 +154,11 @@ body {
   }
 
   mini {
-    font-size: calc(3vw - 6px) !important;
-  }
-  mini > * {
-    font-size: calc(3vw - 6px) !important;
+    font-size: calc(3vw - 6px);
   }
 
   i {
-    font-size: calc(3vw - 4px) !important;
+    font-size: calc(3vw - 4px);
   }
 
   .container {
