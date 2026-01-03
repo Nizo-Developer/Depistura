@@ -36,6 +36,15 @@ Ditengah bulan oktober Favian mengajak penulis untuk jalan-jalan dengan alasan "
 
   Rahma Aulia, selamat ulang tahun! <mini>semoga</mini> panjang umur, <mini>semoga</mini> sehat selalu, <mini>semoga</mini> dilancaarkan rezekinya, <mini>semoga</mini> tetap menjadi perempuan yang solehah, <mini>semoga</mini> dilancarkan kedepannya, <mini>semoga</mini> ngga jeles lagi, <mini>semoga</mini> selalu setia seperti kau dengan Bumi, <mini>dan semoga</mini> nama mu tidak berubah menjadi <secret>maRah Aulia</secret>.<br><br>
 
-  Wihh Rahma udah makin gedee udah <secret>19</secret> tahun, hehehe kan Rahma bilang jangan di sebut jadi ku sensor aja, udah <secret>19</secret> tahunn, <secret>19</secret> tahunnn ahahah. Rahma secara angka bukan tanggal udah lebih tua dari ku, apa mau ku panggil ka Rahma? atau mba Rahma? atau <supersecret>bu</supersecret> Rahma? ahaha bercanda yahhh. 
+  Maaf yaa sengaja ku bilang telat, biar Rahma kira diriku ngga inget atau kayak "<ary><mini>Bisa-bisa nya dia ngga ngucapin, kemarin aja ku ucapin!! Rrrrr >:(</mini></ary>", Wihh Rahma udah makin gedee udah <secret>19</secret> tahun, hehehe kan Rahma bilang jangan di sebut jadi ku sensor aja, udah <secret>19</secret> tahunn, <secret>19</secret> tahunnn ahahah. Rahma secara angka bukan tanggal udah lebih tua dari ku, apa mau ku panggil ka Rahma? atau mba Rahma? atau <supersecret>bu</supersecret> Rahma? ahaha bercanda yahhh.<br><br>
+
+  Ku mau bilang Terima kasih sebagai orang yang suka Rahma, Terima kasih selama hampir setahun ini kita.. aman.. iya aman, semoga di umur <secret>19</secret> ini rahma semakin sabar sama hakim, bilang marah kalau marah, jelasin kenapa rahma marah, biar ngga jadi masalah yang terus dipikirin. Maaf ya kalau hakim jadi beban pikiran rahma kalo hakim ngga ngelakuin sesuatu kayak biasanya, kayak typing ku yang di nilai rahma cuek, atau sikap ku kayak sekarang yang telat ngucapin sampe-sampe typing mu pasti bakal jadi orang badmood. Semoga kita masih jadi kita di tahun berikutnya. Rahma masih jadi rahma, hakim masih jadi hakim.<br><br>
+
+  Selamat menikmati tiga ratus enam puluh kali menikmati langit siang dan malam, menatap Rembulan yang menyapa mu dua belas kali, dan tetap setia ikut Bumi mengitari Matahari dan melintasi galaxy.
+
+  Selamat Hari Ulang tahun
+  Selamat Menjalani
+
+  <mini>Dan jangan marah ke Hakim :(, maaf rahmaaaaaa</mini>
   `
 };

@@ -17,7 +17,10 @@
 }
 
 mini {
-  font-size: calc(7vw - 4px);
+  font-size: calc(7vw - 6px) !important;
+}
+mini > *{
+  font-size: calc(7vw - 6px) !important;
 }
 
 ht {
@@ -28,6 +31,16 @@ ht {
 ht::selection {
   background-color: #40027a;
   color: #cc9cff;
+}
+
+ary {
+  background-color: #e3929274;
+  color: #521b00;
+}
+
+ary::selection {
+  background-color: #7a0202;
+  color: #ff9c9c;
 }
 
 secret {
@@ -83,7 +96,7 @@ supersecret:hover::after, supersecret:active::after {
 
 i {
   color: #514c74;
-  font-size: calc(7vw - 6px);
+  font-size: calc(7vw - 6px) !important;
 }
 
 body {
@@ -144,11 +157,14 @@ body {
   }
 
   mini {
-    font-size: calc(3vw - 10px);
+    font-size: calc(3vw - 6px) !important;
+  }
+  mini > * {
+    font-size: calc(3vw - 6px) !important;
   }
 
   i {
-    font-size: calc(3vw - 4px);
+    font-size: calc(3vw - 4px) !important;
   }
 
   .container {
